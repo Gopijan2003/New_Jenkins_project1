@@ -1,7 +1,7 @@
 pipeline {
   agent any
   stages {
-
+git branch: 'main', url: 'https://github.com/Gopijan2003/New_Jenkins_project1.git'
     stage('Stage 1') {
       steps {
         script {
